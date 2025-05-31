@@ -1,0 +1,27 @@
+{
+  "name": "paybilldev/kra-etims-sdk",
+  "description": "PHP SDK for integrating with KRA eTims API.",
+  "keywords": ["laravel", "wordpress", "kra", "etims", "api", "sdk"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emmanuel Bartile",
+      "email": "ebartile@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0|^7.0",
+    "respect/validation": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "KraEtimsSdk\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^12.1"
+  }
+}

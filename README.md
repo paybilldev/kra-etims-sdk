@@ -87,10 +87,10 @@ kra-etims-sdk/
 │   ├── Exceptions/                     # Utility functions
 │   │   ├── ApiException.php            # Error handling
 │   │   ├── AuthenticationException.php # Error handling
-│   │   └── ValidationException.js      # Request validation
+│   │   └── ValidationException.php      # Request validation
 │   └── helper.php                      # Helper Functions
 ├── tests/                              # Test files
-│   └── ApiTest.js                      # API service tests
+│   └── ApiTest.php                      # API service tests
 ├── composer.json                       # Project metadata and dependencies
 └── README.md                           # SDK docs
 ```

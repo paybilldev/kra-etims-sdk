@@ -1,0 +1,25 @@
+# Ignore Composer dependencies
+/vendor/
+example/vendor/
+
+# Ignore Composer lock file if you don't want to lock versions
+# (Optional – but usually it's good to commit this)
+/composer.lock
+example/composer.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config
+.idea/
+.vscode/
+
+# Ignore logs and cache
+*.log
+/cache/
+/tmp/
+
+# Ignore environment/config files
+.env
+.env.*

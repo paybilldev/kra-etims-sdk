@@ -58,14 +58,7 @@ Each receipt issued by Trader Invoicing System is formed from a combination of r
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/paybilldev/kra-etims-sdk.git
-
-# Navigate to the project directory
-cd kra-etims-sdk
-
-# Install dependencies
-composer install
+composer require paybilldev/kra-etims-sdk
 ```
 
 ## Project Structure
